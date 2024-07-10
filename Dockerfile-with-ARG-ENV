@@ -1,7 +1,0 @@
-FROM openjdk:11
-MAINTAINER naresh@gmail.com
-WORKDIR /opt
-ARG version
-ENV jarfile=gs-spring-boot-${version}.jar
-COPY ./target/${jarfile} ${jarfile}
-ENTRYPOINT java -jar ${jarfile}
