@@ -22,11 +22,8 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <project.groupId>org.springframework</project.groupId>
-        <project.artifactId>gs-spring-boot</project.artifactId>
-        <project.version>0.1.0</project.version>
-        <project.packaging>jar</project.packaging>
     </properties>
+
 
     <build>
         <plugins>
@@ -41,5 +38,5 @@
             </plugin>
         </plugins>
     </build>
-</project>
 
+</project>
