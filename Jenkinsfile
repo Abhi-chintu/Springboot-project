@@ -84,7 +84,7 @@ pipeline {
             emailext(
                 subject: "Jenkins Pipeline Success - Build #${BUILD_NUMBER}",
                 body: "The Jenkins pipeline for Spring Boot project was successful. Build #${BUILD_NUMBER} has been deployed.",
-                to: "your-email@gmail.com"
+                to: "abhi.n.j55@gmail.com"
             )
         }
     }
